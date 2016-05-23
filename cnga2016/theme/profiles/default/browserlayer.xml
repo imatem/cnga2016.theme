@@ -4,5 +4,5 @@
      when this product is installed. -->
 <layers>
     <layer name="cnga2016.theme"
-           interface="ploneorg.theme.interfaces.ICustomTheme" />
+           interface="cnga2016.theme.interfaces.ICustomTheme" />
 </layers>
