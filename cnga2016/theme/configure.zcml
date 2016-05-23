@@ -1,0 +1,27 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:browser="http://namespaces.zope.org/browser"
+    xmlns:i18n="http://namespaces.zope.org/i18n"
+    xmlns:genericsetup="http://namespaces.zope.org/genericsetup"
+    xmlns:plone="http://namespaces.plone.org/plone"
+    i18n_domain="cnga2016.theme">
+
+  <includeDependencies package="." />
+
+  <include package="plone.app.theming" />
+
+  <plone:static
+    name="cnga2016.theme"
+    directory="theme"
+    type="theme"
+    />
+
+  <genericsetup:registerProfile
+      name="default"
+      title="Diazo Theme Package for CNGA 2016"
+      directory="profiles/default"
+      description="Extension profile for cnga2016 Diazo Theme Package"
+      provides="Products.GenericSetup.interfaces.EXTENSION"
+      />
+
+</configure>
