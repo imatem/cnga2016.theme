@@ -11,7 +11,7 @@
   <include package="plone.app.theming" />
 
   <plone:static
-    name="cnga2016.theme"
+    name="cnga2016"
     directory="theme"
     type="theme"
     />
