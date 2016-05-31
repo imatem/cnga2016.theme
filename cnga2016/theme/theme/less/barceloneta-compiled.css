@@ -3837,17 +3837,20 @@ ul.picker__list {
   position: relative;
   display: block;
   padding: 10px 15px;
-  color: white;
+  color: #FEF0D7;
   font-size: 17px;
 }
 .plone-nav > li > a:hover,
 .plone-nav > li > a:focus {
   text-decoration: none;
-  background-color: #7099bf;
+  background-color: #FEF0D7;
+  color: #531313;
 }
 .plone-navbar {
-  background-color: #007bb1;
-  color: white;
+  background-color: #531313;
+  /* background-color: #D8232E; */
+  /* background-color: #761821; */
+  color: #FEF0D7;
   position: relative;
   min-height: 50px;
   margin-bottom: 20px;
@@ -3970,8 +3973,8 @@ ul.picker__list {
 .plone-navbar-nav > .selected > a,
 .plone-navbar-nav > .selected > a:hover,
 .plone-navbar-nav > .selected > a:focus {
-  color: white;
-  background-color: #7099bf;
+  color: #531313;
+  background-color: #FEF0D7;
 }
 @media (min-width: 768px) {
   .plone-navbar-nav {
@@ -4102,7 +4105,7 @@ a.plone-toolbar-logo {
 }
 #portal-footer-wrapper {
   padding: 30px 15px;
-  background-color: #2e3133;
+  background-color: #444444;
   color: #cccccc;
   text-align: center;
   clear: both;
