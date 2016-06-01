@@ -1,0 +1,93 @@
+//*// FOOTER //*//
+
+#conference-footer{
+    min-height: 158px;
+    background: #14497B;
+    background: linear-gradient(#14497B, #0070BF);
+    background: -webkit-linear-gradient(top, #14497B , #0070BF);
+    background: -o-linear-gradient(top, #14497B, #0070BF);
+    background: -moz-linear-gradient(top, #14497B, #0070BF);
+    box-sizing: border-box;
+    padding: 15px 0 0;
+    position: relative;
+}
+
+#portal-footer .row{
+    margin: 0;
+}
+
+#conference-footer-graphictext{
+    width: 100%;
+    height: 143px;
+    display: inline-block;
+    background-image: url('../images/boston-conf-block-footer-regular-white-rgba.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+#conference-footer-moon{
+    width: 100%;
+    height: 5em;
+    display: inline-block;
+    float: right;
+    box-sizing: border-box;
+    background-image: url('../images/moon-over-bunker-hill-bridge-rgba-padded.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top right;
+}
+
+#conference-footer-bridge{
+    width: 100%;
+    height: 143px;
+    display: inline-block;
+    float: right;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    background-image: url('../images/boston-conf-bridge-night-rgba.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+
+.clearing{
+    clear: both;
+}
+
+
+@media screen and (max-width: 769px){
+    
+    .container-footer{
+        width: 100%;
+        float: none;
+        text-align: center;
+    }
+    
+    #conference-footer{
+        height: 286px;
+    }
+    
+    #conference-footer-graphictext{
+       position: absolute;
+       top: -143px;
+       background-image: url('../images/boston-conf-block-mobile-white-rgba.png');
+       background-position: top center;
+    }
+    
+    #conference-footer-moon{
+        height: 271px;
+        background-size: 5.4em 5em;
+        background-position: center center;
+    }
+    
+    #conference-footer-bridge{
+        float: none;
+        height: 143px;
+        top: 143px;
+        background-image: url('../images/boston-conf-block-footer-bridge-centered-rgba.png');
+        background-position: top center;
+        background-size: auto 143px;
+        }
+}

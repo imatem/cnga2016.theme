@@ -25,6 +25,7 @@ setup(name='cnga2016.theme',
       install_requires=[
           'setuptools',
           'plone.app.theming',
+          'z3c.jbot',
       ],
       entry_points="""
       # -*- Entry points: -*-

@@ -1,0 +1,50 @@
+//*// HEADER //*//
+
+#content-header{
+    background-color: @ploneconf2016-day-yellow;
+    .container, .container-fluid {
+        width: 100%;
+    	padding: 0;
+    	margin: 0;
+    }
+}
+
+#portal-header {
+    padding: 0;
+    margin: 0;
+    #portal-logo {
+        display: none;
+    }
+}
+
+.plone-navbar{
+    font-family: "Roboto Condensed", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    background-color: @ploneconf2016-main-navbar-backround;
+    color: white;
+    text-transform: uppercase;
+}
+
+/*// HEADER NEW //*/
+#portal-header {
+    width: 100%;
+    height: 297px;
+    background-image: url('../images/boston-conf-block-header-wide.png');
+    background-size: cover; /* Könnte variieren -contain- */
+    background-position: center center; /* x-Ausrichtung - y-Ausrichtung */
+}
+
+/*// Media Queries //*/
+@media screen and (max-width: 991px){
+    
+    #portal-header{
+        height: 200px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    
+    #portal-header{
+        height: 120px;
+    }
+}
