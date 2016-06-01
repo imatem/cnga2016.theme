@@ -1,0 +1,97 @@
+//*// MOSAIC //*//
+
+
+//*// Containers //*//
+.container, .container-fluid {
+    width: 100%;
+/* disabled
+	padding-right: 0;
+	padding-left: 0;
+*/
+/* Patched back to have orig. padding */
+	padding-right: 15px;
+	padding-left: 15px;
+
+}
+
+.mosaic-tile img {
+    max-width: 100%;
+}
+
+.sponsorlogo {
+    margin: 0.5em;
+}
+
+.mosaic-tile-align-center {
+    text-align: center;
+}
+
+.row{
+/* disabled
+    margin: 0 -20px;
+*/
+/* Patched back to have orig. padding */
+    margin: 0 15px;
+}
+
+.custom-three-columns{
+    padding: 0 1.5em;
+}
+
+//*// The Theme Specific Row Styles //*//
+
+/* Use prefix body.section-landing-page only when absolutely needed */
+
+.mosaic-grid-row-yellow{
+    background: @ploneconf2016-frontpage-icon-links-background;  /* @ploneconf2016-night-blue */
+}
+
+.mosaic-grid-row-blue{
+    background: @ploneconf2016-frontpage-linkbar-below-icons-background;  /* @ploneconf2016-day-yellow */
+    color: #fff;
+    padding-top: 0.8em;
+}
+
+.mosaic-grid-row-full-width{
+    margin: 0 -4.8em 0 -4.3em;
+}
+
+.mosaic-grid-row-tight-text{
+    padding: 0 10em;
+}
+
+.mosaic-grid-row-special{
+    margin-top: -4.8em;
+}
+
+//*// Move Special Frontpage Tiles //*//
+
+#frontpage-object-orientation-certificate{
+    position: relative;
+    top: -5em;
+    z-index: -50;
+}
+
+#frontpage-maillist-signup-button{
+    position: relative;
+    top: -2.65em;
+}
+
+#frontpage-sponsoring-button{
+    position: relative;
+    top: -0.5em;
+}
+
+/*// Media Queries //*/
+@media screen and (max-width: 991px){
+    
+    #frontpage-maillist-signup-button{
+        position: relative;
+        top: -4.8em;
+    }
+    
+    #frontpage-object-orientation-certificate{
+        position: absolute;
+        top: -5em;
+    }
+}
