@@ -4435,6 +4435,11 @@ ul.picker__list {
   display: inline-block;
   margin-right: 10px;
 }
+
+#portal-header #portal-languageselector li a{
+  color: snow;
+}
+
 /* line 22, https://2016.ploneconf.org/++theme++ploneconf2016/less/header.plone.less */
 #portal-header #portal-anontools {
   float: right;
