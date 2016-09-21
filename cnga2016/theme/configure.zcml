@@ -10,6 +10,8 @@
 
   <include package="plone.app.theming" />
 
+  <i18n:registerTranslations directory="locales" />
+
   <plone:static
     name="cnga2016.theme"
     directory="themeconf"
