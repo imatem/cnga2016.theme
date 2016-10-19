@@ -29,3 +29,7 @@ msgstr ""
 #: Menu
 msgid "Resúmenes"
 msgstr ""
+
+#: Menu
+msgid "Fotos"
+msgstr ""
