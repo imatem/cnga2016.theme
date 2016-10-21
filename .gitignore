@@ -5,3 +5,4 @@ cnga2016/theme.egg-info
 *.pyc
 build/
 *~
+*.mo
